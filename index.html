@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-blue-50">
+    <section class="max-w-screen-2xl mx-auto">
+      <!-- nav bar  -->
+      <div class="flex justify-between mt-5 p-2 px-5 rounded-2xl bg-white">
+        <!--nav left side  -->
+        <div class="flex gap-3">
+          <img src="assets/logo.png" alt="" />
+          <h1 class="text-4xl">Dev <span class="font-bold">Board</span></h1>
+        </div>
+        <!-- nav right side  -->
+        <div class="flex gap-15">
+          <div
+            class="flex items-center gap-2 justify-center bg-blue-50 px-2 rounded-3xl"
+          >
+            <img class="checkBox" src="assets/checkbox.png" alt="" />
+            <p class="text-3xl font-bold">23</p>
+          </div>
+          <div
+            class="flex justify-center items-center bg-blue-50 px-2 rounded-full"
+          >
+            <img class="themebutton" src="assets/theme-btn.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- main section -->
+      <div class="grid grid-cols-4">
+        <!-- main left section -->
+        <div class="col-span-3 bg-white mt-5 px-2 rounded-xl">
+          <div class="grid grid-cols-4">
+            <!-- box 1 -->
+            <div
+              class="flex bg-blue-50 rounded-xl m-4 p-2 gap-5 px-5 justify-center items-center"
+            >
+              <div
+                class="flex justify-center items-center rounded-full h-[50px] w-[50px] bg-white"
+              >
+                <img class="task-img" src="assets/checkbox.png" alt="" />
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-gray-500 text-xl">Task Assigned</p>
+                <h2 class="font-bold text-2xl">05</h2>
+              </div>
+            </div>
+            <!-- box 2 -->
+            <div
+              class="col-span-2 flex m-4 bg-gradient-to-r from-blue-600 to-blue-400 rounded-xl justify-start items-center pl-10 gap-5 p-4"
+            >
+              <img src="assets/board.png" alt="" />
+              <p class="text-white text-xl">
+                Discover Something <br />
+                New Today!
+              </p>
+            </div>
+            <!-- box 3 -->
+            <div
+              class="m-4 bg-blue-50 rounded-xl flex justify-center items-center"
+            >
+              <div
+                class="h-[50px] w-[50px] bg-white flex justify-center items-center rounded-xl"
+              >
+                <img src="assets/calender.png" alt="" />
+              </div>
+              <p>date</p>
+            </div>
+          </div>
+          <!-- cards section -->
+          <div class="grid grid-cols-3 p-4 gap-5">
+            <div class="border-2">
+              <p>ShopEase</p>
+              <h2>Fix Mobile Button Issue</h2>
+              <p>
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
+              </p>
+              <div>
+                <p>aa</p>
+                <button>Completed</button>
+              </div>
+            </div>
+            <div class="border-2">
+              <p>ShopEase</p>
+              <h2>Fix Mobile Button Issue</h2>
+              <p>
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
+              </p>
+              <div>
+                <p>aa</p>
+                <button>Completed</button>
+              </div>
+            </div>
+            <div class="border-2">
+              <p>ShopEase</p>
+              <h2>Fix Mobile Button Issue</h2>
+              <p>
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
+              </p>
+              <div>
+                <p>aa</p>
+                <button>Completed</button>
+              </div>
+            </div>
+            <div class="border-2">
+              <p>ShopEase</p>
+              <h2>Fix Mobile Button Issue</h2>
+              <p>
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
+              </p>
+              <div>
+                <p>aa</p>
+                <button>Completed</button>
+              </div>
+            </div>
+            <div class="border-2 bg-blue-50 px-5 space-y-5 py-2">
+              <span class="bg-white p-2 mt-3 inline-block rounded-xl"
+                >ShopEase</span
+              >
+              <h2 class="font-bold text-xl">Fix Mobile Button Issue</h2>
+              <p class="h-20 text-gray-400 overflow-hidden p-4 bg-white">
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
+              </p>
+              <div class="flex justify-between">
+                <p>aa</p>
+                <button class="p-1 bg-blue-600 text-xl text-white rounded-xl">
+                  Completed
+                </button>
+              </div>
+            </div>
+            <div class="border-2">
+              <p>ShopEase</p>
+              <h2>Fix Mobile Button Issue</h2>
+              <p>
+                Debug using Chrome DevTools, check for overlapping elements, and
+                ensure onClick works properly
+              </p>
+              <div>
+                <p>aa</p>
+                <button>Completed</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- main right section -->
+        <div></div>
+      </div>
+    </section>
+  </body>
+</html>
