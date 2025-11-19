@@ -23,7 +23,7 @@
             class="flex items-center gap-2 justify-center bg-blue-50 px-2 rounded-3xl"
           >
             <img class="checkBox" src="assets/checkbox.png" alt="" />
-            <p class="text-3xl font-bold">23</p>
+            <p id="completed-task" class="text-3xl font-bold">23</p>
           </div>
           <div
             class="flex justify-center items-center bg-blue-50 px-2 rounded-full"
@@ -49,7 +49,7 @@
               </div>
               <div class="flex flex-col justify-center">
                 <p class="text-gray-500 text-xl">Task Assigned</p>
-                <h2 class="font-bold text-2xl">05</h2>
+                <h2 id="pending-task" class="font-bold text-2xl">06</h2>
               </div>
             </div>
             <!-- box 2 -->
@@ -64,14 +64,14 @@
             </div>
             <!-- box 3 -->
             <div
-              class="m-4 bg-blue-50 rounded-xl flex justify-center items-center"
+              class="m-4 bg-blue-50 rounded-xl flex justify-center items-center gap-3"
             >
               <div
                 class="h-[50px] w-[50px] bg-white flex justify-center items-center rounded-xl"
               >
                 <img src="assets/calender.png" alt="" />
               </div>
-              <p>date</p>
+              <p id="real-date" class="font-bold text-xl"></p>
             </div>
           </div>
           <!-- cards section -->
@@ -81,14 +81,21 @@
               <span class="bg-white p-2 mt-3 inline-block rounded-xl"
                 >ShopEase</span
               >
-              <h2 class="font-bold text-xl">Fix Mobile Button Issue</h2>
-              <p class="h-20 text-gray-400 overflow-hidden p-4 bg-white">
+              <h2 id="task-1" class="font-bold text-xl">
+                Fix Mobile Button Issue
+              </h2>
+              <p
+                class="h-20 text-gray-400 overflow-scroll p-4 bg-white no-scrollbar"
+              >
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly
               </p>
               <div class="flex justify-between">
                 <p>aa</p>
-                <button class="p-1 bg-blue-600 text-xl text-white rounded-xl">
+                <button
+                  id="card-btn-1"
+                  class="p-1 bg-blue-600 text-xl text-white rounded-xl"
+                >
                   Completed
                 </button>
               </div>
@@ -98,14 +105,19 @@
               <span class="bg-white p-2 mt-3 inline-block rounded-xl"
                 >ShopEase</span
               >
-              <h2 class="font-bold text-xl">Fix Mobile Button Issue</h2>
-              <p class="h-20 text-gray-400 overflow-hidden p-4 bg-white">
+              <h2 id="task-2" class="font-bold text-xl">Add Dark Mode</h2>
+              <p
+                class="h-20 text-gray-400 overflow-scroll p-4 bg-white no-scrollbar"
+              >
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly
               </p>
               <div class="flex justify-between">
                 <p>aa</p>
-                <button class="p-1 bg-blue-600 text-xl text-white rounded-xl">
+                <button
+                  id="card-btn-2"
+                  class="p-1 bg-blue-600 text-xl text-white rounded-xl"
+                >
                   Completed
                 </button>
               </div>
@@ -115,14 +127,19 @@
               <span class="bg-white p-2 mt-3 inline-block rounded-xl"
                 >ShopEase</span
               >
-              <h2 class="font-bold text-xl">Fix Mobile Button Issue</h2>
-              <p class="h-20 text-gray-400 overflow-hidden p-4 bg-white">
+              <h2 id="task-3" class="font-bold text-xl">Optimize Home page </h2>
+              <p
+                class="h-20 text-gray-400 overflow-scroll p-4 bg-white no-scrollbar"
+              >
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly
               </p>
               <div class="flex justify-between">
                 <p>aa</p>
-                <button class="p-1 bg-blue-600 text-xl text-white rounded-xl">
+                <button
+                  id="card-btn-3"
+                  class="p-1 bg-blue-600 text-xl text-white rounded-xl"
+                >
                   Completed
                 </button>
               </div>
@@ -132,14 +149,19 @@
               <span class="bg-white p-2 mt-3 inline-block rounded-xl"
                 >ShopEase</span
               >
-              <h2 class="font-bold text-xl">Fix Mobile Button Issue</h2>
-              <p class="h-20 text-gray-400 overflow-hidden p-4 bg-white">
+              <h2 id="task-4" class="font-bold text-xl">Add new emoji 🤲</h2>
+              <p
+                class="h-20 text-gray-400 overflow-scroll p-4 bg-white no-scrollbar"
+              >
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly
               </p>
               <div class="flex justify-between">
                 <p>aa</p>
-                <button class="p-1 bg-blue-600 text-xl text-white rounded-xl">
+                <button
+                  id="card-btn-4"
+                  class="p-1 bg-blue-600 text-xl text-white rounded-xl"
+                >
                   Completed
                 </button>
               </div>
@@ -149,14 +171,21 @@
               <span class="bg-white p-2 mt-3 inline-block rounded-xl"
                 >ShopEase</span
               >
-              <h2 class="font-bold text-xl">Fix Mobile Button Issue</h2>
-              <p class="h-20 text-gray-400 overflow-hidden p-4 bg-white">
+              <h2 id="task-5" class="font-bold text-xl">
+                Integrate OpenAI API
+              </h2>
+              <p
+                class="h-20 text-gray-400 overflow-scroll p-4 bg-white no-scrollbar"
+              >
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly
               </p>
               <div class="flex justify-between">
                 <p>aa</p>
-                <button class="p-1 bg-blue-600 text-xl text-white rounded-xl">
+                <button
+                  id="card-btn-5"
+                  class="p-1 bg-blue-600 text-xl text-white rounded-xl"
+                >
                   Completed
                 </button>
               </div>
@@ -166,14 +195,21 @@
               <span class="bg-white p-2 mt-3 inline-block rounded-xl"
                 >ShopEase</span
               >
-              <h2 class="font-bold text-xl">Fix Mobile Button Issue</h2>
-              <p class="h-20 text-gray-400 overflow-hidden p-4 bg-white">
+              <h2 id="task-6" class="font-bold text-xl">
+                Improve Job searching
+              </h2>
+              <p
+                class="h-20 text-gray-400 overflow-scroll p-4 bg-white no-scrollbar"
+              >
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly
               </p>
               <div class="flex justify-between">
                 <p>aa</p>
-                <button class="p-1 bg-blue-600 text-xl text-white rounded-xl">
+                <button
+                  id="card-btn-6"
+                  class="p-1 bg-blue-600 text-xl text-white rounded-xl"
+                >
                   Completed
                 </button>
               </div>
@@ -181,7 +217,7 @@
           </div>
         </div>
         <!-- main right section -->
-        <div class="bg-white rounded-xl p-5">
+        <div id="Complete-task-container" class="bg-white rounded-xl p-5">
           <div class="flex justify-center gap-3">
             <img src="assets/activity.png" alt="" />
             <p class="text-xl font-bold">Activity Log</p>
@@ -189,5 +225,7 @@
         </div>
       </div>
     </section>
+    <script src="utilities/utilities.js"></script>
+    <script src="script/function.js"></script>
   </body>
 </html>

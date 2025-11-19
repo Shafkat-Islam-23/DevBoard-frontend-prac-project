@@ -12,3 +12,28 @@
   height: 30px;
   width: 30px;
 }
+
+/* card scroll bar style */
+/* Hide scrollbar but keep scrolling */
+.no-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.activity-style {
+  font-size: 20px;
+  font-weight: bold;
+  background: oklch(97% 0.014 254.604);
+
+  color: rgb(124, 120, 120);
+  padding: 4px;
+
+  /* border: 2px solid rgb(124, 120, 120); */
+  border-radius: 10px;
+
+  margin: 10px;
+}
